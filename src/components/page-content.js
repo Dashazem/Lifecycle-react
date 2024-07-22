@@ -9,9 +9,9 @@ export default function() {
   return (
     <div>
       <Switch>
-        <Route exact path="/" component={Discussion} />
-        <Route exact path="/rules" component={Rules} />
-        <Route exact path="/workflow" component={Workflow} />
+        <Route  path="/" component={Discussion} />
+        <Route  path="/rules" component={Rules} />
+        <Route  path="/workflow" component={Workflow} />
       </Switch>
     </div>
   );

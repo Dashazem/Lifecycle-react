@@ -5,7 +5,7 @@ export default function() {
   return (
     <div>
       <div>
-        <NavLink exact to="/">
+        <NavLink  to="/">
           Discussion
         </NavLink>
       </div>
